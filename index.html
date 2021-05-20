@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!--
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./reset.css" rel="stylesheet" /> 
+    -->
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="calculator">
+          <div class="calculator__display">0</div>
+          <div class="calculator__keys">
+            <div class = "row">
+              <button class="button button--clear" data-type="clear">C</button>
+              <button class="button button--equal" data-type="equal">=</button>
+            </div>
+            <div class = "row">
+              <button class="button button--number" data-type="number">7</button>
+              <button class="button button--number" data-type="number">8</button>
+              <button class="button button--number" data-type="number">9</button>
+              <button class="button button--divide" data-key="divide" data-type="operator">÷</button>
+            </div>
+            <div class = "row">
+              <button class="button button--number" data-type="number">4</button>
+              <button class="button button--number" data-type="number">5</button>
+              <button class="button button--number" data-type="number">6</button>
+              <button class="button button--times" data-key="times" data-type="operator">&times;</button>
+            </div>
+            <div class = "row"> 
+              <button class="button button--number" data-type="number">1</button>
+              <button class="button button--number" data-type="number">2</button>
+              <button class="button button--number" data-type="number">3</button>
+              <button class="button button--minus" data-key="minus" data-type="operator">-</button>
+            </div>
+            <div class = "row"> 
+              <button class="button button--number button--bottom-button" data-type="number">0</button>
+              <button class="button button--number button--bottom-button" data-type="number">.</button>
+              <button class="button button--plus" data-key="plus" data-type="operator">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
