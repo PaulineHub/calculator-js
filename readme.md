@@ -1,9 +1,9 @@
 # Calculator Project
 
-## Github page : https://paulinehub.github.io/calculator-js/
+### Github page : https://paulinehub.github.io/calculator-js/
 
-## Langage : Javascript
+### Langage : Javascript
 
-## Description :
+### Description :
 This is a beginner project to practice Javascript.
 The calculator can do basic operations (add, substract, multuply, divid and reset).
